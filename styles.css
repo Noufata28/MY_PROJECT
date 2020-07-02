@@ -1,41 +1,49 @@
-body {
-    text-align: center;
-    background-color: silver;
+/* add your CSS here */
+#dolphinpic{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 10px auto;
+
+    
+}
+#interestingfact{
+    font-style: italic;
+   color: black;
+   margin-left: 10px;
+   margin-right: 10px;
+   
+}
+.label{
+
+    font-weight: bold;
+}
+#items{
+
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+   
+    
 }
 
-h1 {
-    font-family: Monoton;
-    font-size: 70px;
-    margin: 0.2em;
-}
+#first-frame{
+    border: 1px blue solid;
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+    background: lightgrey;
+     
 
-h2 {
-    margin: 1em 0 0.25em;
 }
+#second-frame{
 
-h2:first-of-type {
-    margin-top: 0.5em;
+    border: 1px gray solid;
+    padding: 10px;
 }
+#descinfo{
+    margin-left: 10px;
+    margin-right: 10px;
 
-table,
-tr,
-td {
-    border: 1px solid black;
-}
-
-table {
-    border-collapse: collapse;
-    margin: 0 auto;
-}
-
-tr {
-    height: 20px;
-}
-
-td {
-    width: 20px;
-}
-
-input[type=number] {
-    width: 6em;
 }
